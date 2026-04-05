@@ -23,3 +23,4 @@ def decrypt(text, shift):
     return caesar(text, shift, encrypt=False)
 
 print(encrypt("lorem ipsum", 13))
+print(decrypt("yberz vcfhz", 13))
